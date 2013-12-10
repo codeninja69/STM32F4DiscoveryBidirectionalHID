@@ -32,7 +32,10 @@ Python setup
 
 Merely install python, and the pyusb module, there are tons of tutorials online for both windows and linux installations.
 
-When you are done installing python you merely have to type these commands to talk to your STM32F4Discovery after you have programmed it from the included project filees via Coocox:
+When you are done installing python you merely have to type these commands to talk to your STM32F4Discovery after you have programmed it from the included project filees via Coocox.
+
+Example Outputs
+===============
 
 at the command line type:
 
