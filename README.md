@@ -38,21 +38,31 @@ at the command line type:
 
 stm32f4usb-(windows or linux).py test
 
+The response should be: Testing 1 2 3 . . .
+
 or
 
 stm32f4usb-(windows or linux).py led3
+
+The response should be: LED3(Orange) has been toggled!
 
 or
 
 stm32f4usb-(windows or linux).py led4
 
+The response should be: LED4(Green) has been toggled!
+
 or
 
 stm32f4usb-(windows or linux).py led5
 
+The response should be: LED5(Red) has been toggled!
+
 or
 
 stm32f4usb-(windows or linux).py led6
+
+The response should be: LED6(Blue) has been toggled!
 
 Enjoy!
 ======
