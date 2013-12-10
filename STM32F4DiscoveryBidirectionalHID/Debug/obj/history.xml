@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DUSE_USB_OTG_FS -I..\..\..\workspace\STM32F4DiscoveryBidirectionalHID -I..\..\..\workspace\STM32F4DiscoveryBidirectionalHID\cmsis_boot -I..\..\..\workspace -I..\..\..\workspace\STM32F4DiscoveryBidirectionalHID\cmsis_lib -I..\..\..\workspace\STM32F4DiscoveryBidirectionalHID\cmsis_lib\include -I..\..\..\workspace\STM32F4DiscoveryBidirectionalHID\cmsis -I..\..\.. -I..\..\..\workspace\STM32F4DiscoveryBidirectionalHID\usb_hid_lib\inc -I..\..\..\workspace\STM32F4DiscoveryBidirectionalHID\usb_hid_lib">
+      <target file="stm32f4xx_exti.o" lastModified="142d9a8f351">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="142d93031a5"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="142d9a8f1f3">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="142d9302f2f"/>
+      </target>
+      <target file="usbd_core.o" lastModified="142d9a8ee97">
+         <source file="..\..\..\usb_hid_lib\src\usbd_core.c" lastModified="142ba39fdc0"/>
+      </target>
+      <target file="usbd_desc.o" lastModified="142d9a8f1b7">
+         <source file="..\..\..\usb_hid_lib\src\usbd_desc.c" lastModified="142ba3bcab0"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="142d9a8ece9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="142d93d9152"/>
+      </target>
+      <target file="usbd_ioreq.o" lastModified="142d9a8f40f">
+         <source file="..\..\..\usb_hid_lib\src\usbd_ioreq.c" lastModified="142ba39fdc0"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="142d9a8edcf">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="142d955948e"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="142d9a8f4a5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="142d930411d"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="142d9a8f22f">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="142d950e22c"/>
+      </target>
+      <target file="stm32f4_discovery.o" lastModified="142d9a8ee0b">
+         <source file="..\..\..\stm32f4_discovery.c" lastModified="142d94efa5b"/>
+      </target>
+      <target file="usb_bsp.o" lastModified="142d9a8f26b">
+         <source file="..\..\..\usb_hid_lib\src\usb_bsp.c" lastModified="142d94e66f9"/>
+      </target>
+      <target file="misc.o" lastModified="142d9a8f38d">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="142d9306387"/>
+      </target>
+      <target file="usbd_req.o" lastModified="142d9a8f2c5">
+         <source file="..\..\..\usb_hid_lib\src\usbd_req.c" lastModified="142ba39fdc0"/>
+      </target>
+      <target file="usb_dcd.o" lastModified="142d9a8f3d3">
+         <source file="..\..\..\usb_hid_lib\src\usb_dcd.c" lastModified="142ba285250"/>
+      </target>
+      <target file="usb_dcd_int.o" lastModified="142d9a8f31f">
+         <source file="..\..\..\usb_hid_lib\src\usb_dcd_int.c" lastModified="142ba285250"/>
+      </target>
+      <target file="usbd_hid_core.o" lastModified="142d9a8ee47">
+         <source file="..\..\..\usb_hid_lib\src\usbd_hid_core.c" lastModified="142c0488f10"/>
+      </target>
+      <target file="stm32f4xx_it.o" lastModified="142d9a8f171">
+         <source file="..\..\..\stm32f4xx_it.c" lastModified="142d951d6c8"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="142d9a8f135">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="142d9301693"/>
+      </target>
+      <target file="usb_core.o" lastModified="142d9a8ed75">
+         <source file="..\..\..\usb_hid_lib\src\usb_core.c" lastModified="142ba285250"/>
+      </target>
+      <target file="usbd_usr.o" lastModified="142d9a8eda7">
+         <source file="..\..\..\usb_hid_lib\src\usbd_usr.c" lastModified="142ba3bcab0"/>
+      </target>
+      <target file="main.o" lastModified="142d9b12f4a">
+         <source file="..\..\..\main.c" lastModified="142d9b129dc"/>
+      </target>
+   </processor>
+</history>
